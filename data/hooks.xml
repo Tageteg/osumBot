@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<hooks>
+    <class name="bu" super="Mouse">
+        <getter fieldDesc="I" fieldName="s" fieldOwner="bu" methodDesc="I" methodName="getY" multiplier="476322543"/>
+        <getter fieldDesc="I" fieldName="b" fieldOwner="bu" methodDesc="I" methodName="getX" multiplier="805078735"/>
+    </class>
+    <class name="bn" super="Keyboard"/>
+    <class interface="LinkedListNode" name="fo"/>
+    <class interface="LinkedList" name="fa"/>
+    <class interface="Node" name="fk">
+        <getter fieldDesc="J" fieldName="dz" fieldOwner="fk" methodDesc="J" methodName="getId"/>
+        <getter fieldDesc="Lfk;" fieldName="di" fieldOwner="fk" methodDesc="Node" methodName="getNext"/>
+        <getter fieldDesc="Lfk;" fieldName="em" fieldOwner="fk" methodDesc="Node" methodName="getPrevious"/>
+    </class>
+    <class interface="Buffer" name="dp"/>
+    <class interface="CacheableNode" name="fn"/>
+    <class interface="HashTable" name="fs">
+        <getter fieldDesc="[Lfk;" fieldName="m" fieldOwner="fs" methodDesc="[Lfk;" methodName="getBuckets"/>
+    </class>
+    <class interface="NodeDeque" name="fg">
+        <getter fieldDesc="Lfk;" fieldName="m" fieldOwner="fg" methodDesc="Node" methodName="getCurrent"/>
+        <getter fieldDesc="Lfk;" fieldName="y" fieldOwner="fg" methodDesc="Node" methodName="getTail"/>
+    </class>
+    <class interface="Renderable" name="cg">
+        <getter fieldDesc="I" fieldName="bv" fieldOwner="cg" methodDesc="I" methodName="getHeight" multiplier="12333105"/>
+    </class>
+    <class interface="NPCDefinition" name="av">
+        <getter fieldDesc="Ljava/lang/String;" fieldName="s" fieldOwner="av" methodDesc="Ljava/lang/String;" methodName="getName"/>
+        <getter fieldDesc="[Ljava/lang/String;" fieldName="v" fieldOwner="av" methodDesc="[Ljava/lang/String;" methodName="getActions"/>
+        <getter fieldDesc="I" fieldName="as" fieldOwner="av" methodDesc="I" methodName="getHeadIcon" multiplier="-855843998"/>
+        <getter fieldDesc="I" fieldName="f" fieldOwner="av" methodDesc="I" methodName="isClickable" multiplier="-652303613"/>
+    </class>
+    <class interface="Projectile" name="p"/>
+    <class interface="Model" name="dw"/>
+    <class interface="Tile" name="cn">
+        <getter fieldDesc="Lcy;" fieldName="x" fieldOwner="cn" methodDesc="Wall" methodName="getWall"/>
+        <getter fieldDesc="Ldt;" fieldName="b" fieldOwner="cn" methodDesc="WallDecoration" methodName="getWallDecoration"/>
+        <getter fieldDesc="Ldd;" fieldName="j" fieldOwner="cn" methodDesc="FloorDecoration" methodName="getFloorDecoration"/>
+        <getter fieldDesc="Lcf;" fieldName="p" fieldOwner="cn" methodDesc="GroundLayer" methodName="getGroundLayer"/>
+        <getter fieldDesc="[Lcc;" fieldName="i" fieldOwner="cn" methodDesc="InteractableObject" methodName="getObjects"/>
+    </class>
+    <class interface="Scene" name="ce">
+        <getter fieldDesc="[[[Lcn;" fieldName="s" fieldOwner="ce" methodDesc="Tile" methodName="getTiles"/>
+        <getter fieldDesc="[Lcc;" fieldName="j" fieldOwner="ce" methodDesc="InteractableObject" methodName="getObjects"/>
+    </class>
+    <class interface="Region" name="j">
+        <getter fieldDesc="[[[I" fieldName="y" fieldOwner="j" methodDesc="[[[I" methodName="getTileHeightMap"/>
+        <getter fieldDesc="[[[B" fieldName="m" fieldOwner="j" methodDesc="[[[B" methodName="getSceneFlags"/>
+    </class>
+    <class interface="GameObject" name="o"/>
+    <class interface="GameObjectDefinition" name="ae">
+        <getter fieldDesc="Ljava/lang/String;" fieldName="i" fieldOwner="ae" methodDesc="Ljava/lang/String;" methodName="getName"/>
+        <getter fieldDesc="[Ljava/lang/String;" fieldName="aj" fieldOwner="ae" methodDesc="[Ljava/lang/String;" methodName="getActions"/>
+    </class>
+    <class interface="InteractableObject" name="cc">
+        <getter fieldDesc="I" fieldName="k" fieldOwner="cc" methodDesc="I" methodName="getX" multiplier="1845366637"/>
+        <getter fieldDesc="I" fieldName="n" fieldOwner="cc" methodDesc="I" methodName="getY" multiplier="2033463519"/>
+        <getter fieldDesc="Lcg;" fieldName="s" fieldOwner="cc" methodDesc="Renderable" methodName="getRenderable"/>
+        <getter fieldDesc="I" fieldName="o" fieldOwner="cc" methodDesc="I" methodName="getId" multiplier="-455201817"/>
+        <getter fieldDesc="I" fieldName="r" fieldOwner="cc" methodDesc="I" methodName="getFlags" multiplier="743640779"/>
+    </class>
+    <class interface="Wall" name="cy">
+        <getter fieldDesc="I" fieldName="m" fieldOwner="cy" methodDesc="I" methodName="getX" multiplier="-1032682431"/>
+        <getter fieldDesc="I" fieldName="d" fieldOwner="cy" methodDesc="I" methodName="getY" multiplier="-1479145563"/>
+        <getter fieldDesc="Lcg;" fieldName="x" fieldOwner="cy" methodDesc="Renderable" methodName="getRenderable"/>
+        <getter fieldDesc="I" fieldName="j" fieldOwner="cy" methodDesc="I" methodName="getFlags" multiplier="1783941597"/>
+        <getter fieldDesc="I" fieldName="b" fieldOwner="cy" methodDesc="I" methodName="getId" multiplier="-766480575"/>
+    </class>
+    <class interface="FloorDecoration" name="dd">
+        <getter fieldDesc="Lcg;" fieldName="n" fieldOwner="dd" methodDesc="Renderable" methodName="getRenderable"/>
+    </class>
+    <class interface="WallDecoration" name="dt">
+        <getter fieldDesc="I" fieldName="m" fieldOwner="dt" methodDesc="I" methodName="getX" multiplier="1592084885"/>
+        <getter fieldDesc="I" fieldName="d" fieldOwner="dt" methodDesc="I" methodName="getY" multiplier="-147593037"/>
+        <getter fieldDesc="Lcg;" fieldName="j" fieldOwner="dt" methodDesc="Renderable" methodName="getRenderable"/>
+        <getter fieldDesc="I" fieldName="l" fieldOwner="dt" methodDesc="I" methodName="getFlags" multiplier="1340087425"/>
+        <getter fieldDesc="I" fieldName="p" fieldOwner="dt" methodDesc="I" methodName="getId" multiplier="1459198009"/>
+    </class>
+    <class interface="GroundLayer" name="cf"/>
+    <class interface="Widget" name="fi">
+        <getter fieldDesc="I" fieldName="bn" fieldOwner="fi" methodDesc="I" methodName="getModelId" multiplier="-459893057"/>
+        <getter fieldDesc="I" fieldName="a" fieldOwner="fi" methodDesc="I" methodName="getActionType" multiplier="81596245"/>
+        <getter fieldDesc="I" fieldName="x" fieldOwner="fi" methodDesc="I" methodName="getRelativeY" multiplier="-559211941"/>
+        <getter fieldDesc="Ljava/lang/String;" fieldName="bq" fieldOwner="fi" methodDesc="Ljava/lang/String;" methodName="getX"/>
+        <getter fieldDesc="I" fieldName="bh" fieldOwner="fi" methodDesc="I" methodName="getY" multiplier="2107362411"/>
+        <getter fieldDesc="I" fieldName="v" fieldOwner="fi" methodDesc="I" methodName="getWidth" multiplier="-573812283"/>
+        <getter fieldDesc="I" fieldName="w" fieldOwner="fi" methodDesc="I" methodName="getHeight" multiplier="258121965"/>
+        <getter fieldDesc="I" fieldName="h" fieldOwner="fi" methodDesc="I" methodName="getRoot" multiplier="207084995"/>
+        <getter fieldDesc="I" fieldName="ax" fieldOwner="fi" methodDesc="I" methodName="getRelativeX" multiplier="-207126527"/>
+        <getter fieldDesc="I" fieldName="aq" fieldOwner="fi" methodDesc="I" methodName="getParentId" multiplier="-124481775"/>
+        <getter fieldDesc="I" fieldName="be" fieldOwner="fi" methodDesc="I" methodName="getContentType" multiplier="-1726614621"/>
+        <getter fieldDesc="I" fieldName="ap" fieldOwner="fi" methodDesc="I" methodName="getTooltip" multiplier="1033687583"/>
+        <getter fieldDesc="I" fieldName="ak" fieldOwner="fi" methodDesc="I" methodName="getText" multiplier="22122343"/>
+        <getter fieldDesc="I" fieldName="bl" fieldOwner="fi" methodDesc="I" methodName="getSpellName" multiplier="64537327"/>
+        <getter fieldDesc="I" fieldName="y" fieldOwner="fi" methodDesc="I" methodName="getBoundsArrayIndex" multiplier="-438126995"/>
+        <getter fieldDesc="I" fieldName="bo" fieldOwner="fi" methodDesc="I" methodName="getId" multiplier="2099864337"/>
+        <getter fieldDesc="I" fieldName="ay" fieldOwner="fi" methodDesc="I" methodName="getSelectedAction" multiplier="862165991"/>
+        <getter fieldDesc="[I" fieldName="db" fieldOwner="fi" methodDesc="[I" methodName="getInventory"/>
+        <getter fieldDesc="[I" fieldName="dm" fieldOwner="fi" methodDesc="[I" methodName="getInventoryStackSizes"/>
+        <getter fieldDesc="[Lfi;" fieldName="dg" fieldOwner="fi" methodDesc="[Lfi;" methodName="getComponents"/>
+    </class>
+    <class interface="Item" name="a">
+        <getter fieldDesc="I" fieldName="m" fieldOwner="a" methodDesc="I" methodName="getAmount" multiplier="1010389291"/>
+        <getter fieldDesc="I" fieldName="y" fieldOwner="a" methodDesc="I" methodName="getId" multiplier="-1007002963"/>
+    </class>
+    <class interface="Actor" name="as">
+        <getter fieldDesc="I" fieldName="bf" fieldOwner="as" methodDesc="I" methodName="getOrientation" multiplier="-1984513445"/>
+        <getter fieldDesc="Ljava/lang/String;" fieldName="am" fieldOwner="as" methodDesc="Ljava/lang/String;" methodName="getTextSpoken"/>
+        <getter fieldDesc="Z" fieldName="h" fieldOwner="as" methodDesc="Z" methodName="isAnimating"/>
+        <getter fieldDesc="[I" fieldName="ao" fieldOwner="as" methodDesc="[I" methodName="getStandAnimation"/>
+        <getter fieldDesc="I" fieldName="az" fieldOwner="as" methodDesc="I" methodName="getInteracting" multiplier="-695887265"/>
+        <getter fieldDesc="I" fieldName="bm" fieldOwner="as" methodDesc="I" methodName="getAnimation" multiplier="-260086677"/>
+        <getter fieldDesc="I" fieldName="z" fieldOwner="as" methodDesc="I" methodName="getY" multiplier="-344898115"/>
+        <getter fieldDesc="I" fieldName="v" fieldOwner="as" methodDesc="I" methodName="getX" multiplier="-331795885"/>
+        <getter fieldDesc="I" fieldName="bp" fieldOwner="as" methodDesc="I" methodName="getWalkingQueueXPos" multiplier="386015303"/>
+        <getter fieldDesc="I" fieldName="bc" fieldOwner="as" methodDesc="I" methodName="getWalkingQueueYPos" multiplier="1876608051"/>
+        <getter fieldDesc="I" fieldName="q" fieldOwner="as" methodDesc="I" methodName="getWalkingQueueX"/>
+        <getter fieldDesc="I" fieldName="q" fieldOwner="as" methodDesc="I" methodName="getWalkingQueueY"/>
+    </class>
+    <class interface="Player" name="d">
+        <getter fieldDesc="Ljava/lang/String;" fieldName="y" fieldOwner="d" methodDesc="Ljava/lang/String;" methodName="getName"/>
+        <getter fieldDesc="Ldw;" fieldName="r" fieldOwner="d" methodDesc="Model" methodName="getModel"/>
+        <getter fieldDesc="I" fieldName="k" fieldOwner="d" methodDesc="I" methodName="getSkullIcon" multiplier="680564603"/>
+        <getter fieldDesc="Z" fieldName="t" fieldOwner="d" methodDesc="Z" methodName="getHeadIcon"/>
+        <getter fieldDesc="I" fieldName="n" fieldOwner="d" methodDesc="I" methodName="getTotalLevel" multiplier="-74898749"/>
+        <getter fieldDesc="I" fieldName="j" fieldOwner="d" methodDesc="I" methodName="getCombatLevel" multiplier="-58753787"/>
+        <getter fieldDesc="I" fieldName="d" fieldOwner="d" methodDesc="I" methodName="isSpotAnimating" multiplier="-331014125"/>
+        <getter fieldDesc="Lfx;" fieldName="m" fieldOwner="d" methodDesc="Lfx;" methodName="getDefinition"/>
+    </class>
+    <class interface="PlayerDefinition" name="fx">
+        <getter fieldDesc="[I" fieldName="m" fieldOwner="fx" methodDesc="[I" methodName="getAppearance"/>
+    </class>
+    <class interface="NPC" name="g">
+        <getter fieldDesc="Lav;" fieldName="y" fieldOwner="g" methodDesc="NPCDefinition" methodName="getNPCDefinition"/>
+    </class>
+    <class interface="Client" name="client">
+        <getter fieldDesc="[Lg;" fieldName="bs" fieldOwner="client" methodDesc="NPC" methodName="getNPCArray"/>
+        <getter fieldDesc="[Ld;" fieldName="ga" fieldOwner="client" methodDesc="Player" methodName="getPlayerArray"/>
+        <getter fieldDesc="[[[Lfg;" fieldName="hv" fieldOwner="client" methodDesc="NodeDeque" methodName="getGroundItems"/>
+        <getter fieldDesc="[I" fieldName="lv" fieldOwner="client" methodDesc="[I" methodName="getWidgetBoundsXArray"/>
+        <getter fieldDesc="[I" fieldName="lj" fieldOwner="client" methodDesc="[I" methodName="getWidgetBoundsYArray"/>
+        <getter fieldDesc="Ld;" fieldName="ho" fieldOwner="p" methodDesc="Player" methodName="getLocalPlayer"/>
+        <getter fieldDesc="Lbu;" fieldName="m" fieldOwner="bu" methodDesc="Mouse" methodName="getMouse"/>
+        <getter fieldDesc="Lce;" fieldName="dw" fieldOwner="b" methodDesc="Scene" methodName="getCurrentScene"/>
+        <getter fieldDesc="[[Lfi;" fieldName="m" fieldOwner="fi" methodDesc="Widget" methodName="getWidgets"/>
+        <getter fieldDesc="Lbn;" fieldName="y" fieldOwner="bn" methodDesc="Keyboard" methodName="getKeyboard"/>
+        <getter fieldDesc="I" fieldName="fh" fieldOwner="ca" methodDesc="I" methodName="getCameraX" multiplier="1600266873"/>
+        <getter fieldDesc="I" fieldName="ft" fieldOwner="l" methodDesc="I" methodName="getCameraZ" multiplier="1750131833"/>
+        <getter fieldDesc="I" fieldName="fb" fieldOwner="fq" methodDesc="I" methodName="getCameraY" multiplier="-1357036389"/>
+        <getter fieldDesc="I" fieldName="aj" fieldOwner="fi" methodDesc="I" methodName="getCameraYaw" multiplier="-1837183223"/>
+        <getter fieldDesc="I" fieldName="ef" fieldOwner="client" methodDesc="I" methodName="getCameraPitch" multiplier="-157718745"/>
+        <getter fieldDesc="I" fieldName="fv" fieldOwner="client" methodDesc="I" methodName="getPlane" multiplier="-1381624831"/>
+        <getter fieldDesc="[[[I" fieldName="y" fieldOwner="j" methodDesc="[[[I" methodName="getTileHeightMap"/>
+        <getter fieldDesc="[[[B" fieldName="m" fieldOwner="j" methodDesc="[[[B" methodName="getSceneFlags"/>
+    </class>
+</hooks>
